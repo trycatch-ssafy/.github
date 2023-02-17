@@ -1,7 +1,7 @@
 [![horizontal_logo_light_theme](/image/horizontal_logo_light_theme.svg)](https://try-catch.kr)
 
 
-# 트라이캐치(Try-Catch)🏆
+# 트라이캐치(Try-Catch)
 ## 소개
 ### "개발자를 위한 커뮤니티"
 >개발자를 위한 커뮤니티
@@ -12,19 +12,16 @@
 
 ## **📚 목차**  
 
-1️⃣ [Target](#-target)   
-2️⃣ [Main Function](#-main-function)  
-3️⃣ [Challympic Service](#-challympic-service)  
-4️⃣ [How To Run](#-how-to-run)  
-5️⃣ [Team](#-team)  
-6️⃣ [Tech Architecture](#-tech-architecture)  
-7️⃣ [ERD](#-erd)  
-8️⃣ [API](#-api)  
-9️⃣ [Schedule](#-schedule)  
-🔟 [Cooperation Tool](#-cooperation-tool)  
-☑ [Improvement Plan](#-improvement-plan)
-
-> 버전 및 배포 : `exec/포팅 매뉴얼`
+1️⃣ [타겟층](#-타겟층)   
+2️⃣ [주요 기능](#-주요-기능)  
+3️⃣ [트라이캐치 서비스](#-트라이캐치-서비스)  
+4️⃣ [실행방법](#-실행방법)  
+5️⃣ [팀 구성](#-팀-구성)  
+6️⃣ [기술 아키텍쳐](#-기술-아키텍쳐)  
+7️⃣ [ERD 다이어그램](#-erd-다이어그램)  
+8️⃣ [API 명세서](#-api-명세서)   
+🔟 [협업 툴](#-협업-툴)  
+☑ [향후 계획](#-향후-계획)
 
 <br>
 
@@ -37,7 +34,7 @@
     
 <br>
 
-## 👍 주요 기능
+## 👍 주요 기능(아직 미완성)
 |구분|기능|설명|비고|
 |:---|:---|:---|:---|
 |1|사용자|회원가입, 로그인이(깃허브) 가능하다.<br>알림을 확인할 수 있다.<br>다크모드 설정이 가능하다.<br>회원 정보를 수정할 수 있다.<br>||
@@ -49,23 +46,35 @@
 
 <br>
 
-# 🏆 트라이캐치 서비스
+# 🌍 트라이캐치 서비스
 ## 📌 Q&A
 - 질문 생성
+  - 수정 및 삭제
+  - 노션처럼 사용
+  - 댓글 생성
+  - 댓글 채택
+  - 좋아요, 즐겨찾기
+  - 무한스크롤
 ![qna-post](https://user-images.githubusercontent.com/77381154/219595260-4adfe12a-4e0e-49cc-a069-f143aa021883.gif)
 
-- 답변 채택
-답변 채택 이미지
-![Q&A]()
+- 답변 생성 시 깃허브 자동 커밋
+# !!! 내일 백엔드에 요청해서 디비 지워달라고 하기
+![커밋 과정 GIF]()
+
 
 ---
 
 ## 📌 피드
-- 개인화
-- 고급 검색
+- 피드 페이지
+  - 구독
+  - 카드, 리스트 뷰 전환
+  - 무한스크롤
+  - 개인화(깃허브 리포지토리 기반)
+![feed](https://user-images.githubusercontent.com/77381154/219680052-1b8e8f11-b1d8-4c71-a319-ac5a011ec390.gif)
 
-피드 이미지
-![Feed]()
+- 피드 고급검색
+  - [lucene-query](https://www.lucenetutorial.com/lucene-query-syntax.html)를 활용한 검색
+![feed-search](https://user-images.githubusercontent.com/77381154/219682694-85a09293-60a1-4df8-93e1-8baa8c89e2f2.gif)
 
 ---
 
@@ -74,40 +83,36 @@
 ![Roadmap](https://i.imgur.com/bu2aZs3.png)
 
 - 커스텀 로드맵 생성
-![CreateRoadmap](https://i.imgur.com/h4ULEPu.png)
-
-
-
+![create-roadmap](https://user-images.githubusercontent.com/77381154/219678448-e9bcbdb2-79b1-4bbf-b215-57190d05ce9b.gif)
 
 ---
 
 ## 📌 챌린지
-- 기능1
-- 기능2
+- 커뮤니티 활성화 역할
+![challenge](https://user-images.githubusercontent.com/77381154/219686429-00271d92-7afb-40fd-9a6d-b6cf3a0cbc8b.gif)
 
-챌린지 이미지
-![Challenge](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/460c38c1-b43d-4de0-86ac-08a1ea11322f/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-02-17_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_12.26.26.png)
 
 ---
 
 
-## 📌 User Feed
-- 사용자 피드
-- 참여하거나 좋아요한 포스트 확인 가능
-- 만들거나 구독한 챌린지 확인 가능
-- 팔로우, 팔로워 확인
+## 📌 유저 페이지
+- 팔로우, 팔로잉, 구독 관리
+- 최근 본 피드, 작성한 질문, 댓글 리스트
+- 획득한 뱃지 리스트
+![user](https://user-images.githubusercontent.com/77381154/219690029-b8db7f6e-fb80-4e40-9b36-446b479095d2.gif)
 
 ---
 
 ## 📌 다크 모드
 - 모든 페이지 다크 모드 구현
+![darkmode](https://user-images.githubusercontent.com/77381154/219684362-29a19bc9-32c8-417a-8ba5-b15dad754ac8.gif)
 
-다크모드 이미지
-![DarkMode](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c9672c44-5b0a-4b99-841c-1e51319f5fbb/%ED%8A%B9%EC%9E%A5%EC%A0%90_9.png)
 
 ---
 
 ## 📌 즐겨찾기
+- Q&A, 북마크, 로드맵 즐겨찾기
+![bookmark](https://user-images.githubusercontent.com/77381154/219683810-b282e870-3763-4cba-8280-70c70828c591.gif)
 
 
 <br>
@@ -117,21 +122,30 @@
 
 <br>
 
-## 팀
+## 👬 팀 구성
 <table>
   <tr>
-   <td align="center"><a href="https://github.com/Bogyie"><img src="https://avatars.githubusercontent.com/Bogyie" width="100px;" alt=""/>
-   <br /><sub><b>Bogyie</b><br></sub></a></td>
-   <td align="center"><a href="https://github.com/nimusmix"><img src="https://avatars.githubusercontent.com/nimusmix" width="100px;" alt=""/>
-   <br /><sub><b>nimusmix</b><br></sub></a></td>
-   <td align="center"><a href="https://github.com/ChangJuneKim"><img src="https://avatars.githubusercontent.com/ChangJuneKim" width="100px;" alt=""/>
+   <td align="center">
+   <p>OPS</p>
+   <a href="https://github.com/Bogyie"><img src="https://avatars.githubusercontent.com/Bogyie" width="100px;" alt=""/>
+       <br />
+           <sub>
+                <b>Bogyie</b>
+                <br>
+           </sub>
+       </a>
+   </td>
+   <td align="center"><p>FE Leader</p><a href="https://github.com/ChangJuneKim"><img src="https://avatars.githubusercontent.com/ChangJuneKim" width="100px;" alt=""/>
    <br /><sub><b>ChangJuneKim</b><br></sub></a></td>
-   <td align="center"><a href="https://github.com/hyeok00"><img src="https://avatars.githubusercontent.com/hyeok00" width="100px;" alt=""/>
-   <br /><sub><b>hyeok00</b><br></sub></a></td>
-   <td align="center"><a href="https://github.com/hyeonaseome"><img src="https://avatars.githubusercontent.com/hyeonaseome" width="100px;" alt=""/>
+   <td align="center"><p>FE</p><a href="https://github.com/hyeonaseome"><img src="https://avatars.githubusercontent.com/hyeonaseome" width="100px;" alt=""/>
    <br /><sub><b>hyeonaseome</b><br></sub></a></td>
-   <td align="center"><a href="https://github.com/EZ-000"><img src="https://avatars.githubusercontent.com/EZ-000" width="100px;" alt=""/>
+   <td align="center"><p>FE</p><a href="https://github.com/nimusmix"><img src="https://avatars.githubusercontent.com/nimusmix" width="100px;" alt=""/>
+   <br /><sub><b>nimusmix</b><br></sub></a></td>
+   <td align="center"><p>BE Leader</p><a href="https://github.com/hyeok00"><img src="https://avatars.githubusercontent.com/hyeok00" width="100px;" alt=""/>
+   <br /><sub><b>hyeok00</b><br></sub></a></td>
+   <td align="center"><p>BE</p><a href="https://github.com/EZ-000"><img src="https://avatars.githubusercontent.com/EZ-000" width="100px;" alt=""/>
    <br /><sub><b>EZ-000</b><br></sub></a></td>
+   
   </tr>
 </table>
 
@@ -155,34 +169,34 @@ npm run dev
 <br>
 
 ## 👨‍💻 기술 아키텍쳐
-아키텍쳐 이미지
-![TechArchitecture]()
+![image](https://user-images.githubusercontent.com/77381154/219697411-554acb14-b6ff-4080-a4c7-31e8d9429dbc.png)
+
 
 <br>
 
-## 🎈 ERD
-ERD 이미지
-![ERD]()
+## 💎 ERD 다이어그램
+![TRY_CATCH_DB](https://user-images.githubusercontent.com/77381154/219697030-a51896dd-3855-4792-9323-dd42dd23c492.png)
+
 
 <br>
 
-## 🍏 API
-### [API 명세서]
-API 명세서 링크
-()
+## 📘 API 명세서
+### [API 명세서](https://right-longship-995.notion.site/Try-Catch-API-87f9468fa4cc4fa6b1ad72a48748ee03)
+![image](https://user-images.githubusercontent.com/77381154/219701809-2f8a1c76-95e3-4291-af0b-630a82fd24c3.png)
+
 
 <br>
 
-## 🍏 와이어프레임
-### [API 명세서]
-와이어프레임
-()
+## 🍏[와이어프레임](https://www.figma.com/file/uPdX36WzxiC6ecnBGcTGiy/trycatch?node-id=0%3A1&t=JWlLFyMJgh7ts03r-1)
+![image](https://user-images.githubusercontent.com/77381154/219699671-d29c9b24-9f2c-46ba-8e2b-802ffa712cd7.png)
+
+
 
 <br>
 
 ## 👊 협업 툴
-- 노션
-- 피그마
+- [노션](https://www.notion.so/boggy/42-ab06787c38ea4f349cf638a3209cb571)
+- [피그마](https://www.figma.com/file/uPdX36WzxiC6ecnBGcTGiy/trycatch?node-id=0%3A1&t=JWlLFyMJgh7ts03r-1)
 - 지라
 - 디스코드
 - 매터모스트
@@ -192,8 +206,9 @@ API 명세서 링크
 <br>
 
 ## ✅ 향후 계획
-[ ] 기능 1
-[ ] 기능 2
+- 유지보수
+- 챌린지 깃허브 연동
+- 피드 구독 뉴스레터(메일링 서비스)
     
 <br>
 
