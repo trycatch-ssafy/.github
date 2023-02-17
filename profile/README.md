@@ -1,5 +1,13 @@
 [![horizontal_logo_light_theme](/image/horizontal_logo_light_theme.svg)](https://try-catch.kr)
 
+## About
+개발자를 위한 커뮤니티
+한국판 Stack Overflow
+GitHub 정보를 바탕으로 기술 블로그 글 추천
+
+
+
+## System
 
 
 
