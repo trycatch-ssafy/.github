@@ -140,13 +140,13 @@
 ## 📌 모바일 뷰
 - 모바일 뷰  
 <br>
+  
 ![mobile_light](https://user-images.githubusercontent.com/56781876/220026602-1efa2459-8b54-4675-a9c1-2f10dfcf8f6d.gif)  
   
 ![mobile_dark](https://user-images.githubusercontent.com/56781876/220026763-4f5885d0-be84-4ef8-9150-e5c6dbdb1cc4.gif)
 
 
 ---
-
 
 
 
