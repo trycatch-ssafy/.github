@@ -19,7 +19,20 @@
   - recoil (0.7.6)
   - react-query (3.39.2)
 - 백엔드
-  - ######### 백엔드가 채워주세요 #########
+  - Java 11
+  - Spring Boot 2.7.7
+  - JPA 2.7.7
+  - GraphQL
+  - Elastic-search
+  - Maria DB
+  - SBERT
+  - Fastapi
+- Infra
+  - Jenkins
+  - Portainer
+  - Nginx
+  - EC2
+  
 
 
 ## **📚 목차**  
